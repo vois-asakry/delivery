@@ -10868,7 +10868,7 @@ index 0000000..1f362d4
 +  },
 +  "storeIdentifier": {
 +    "disable": true,
-+    "android": "com.inspireui.fluxstore",
++    "android": "com.al3yadadel.com",
 +    "ios": "1469772800"
 +  },
 +  "advanceConfig": {
@@ -11068,7 +11068,7 @@ index 0000000..1f362d4
 +    "isEnabled": true,
 +    "uriPrefix": "https://fluxstoreinspireui.page.link",
 +    "link": "https://mstore.io/",
-+    "androidPackageName": "com.inspireui.fluxstore",
++    "androidPackageName": "com.al3yadadel.com",
 +    "androidAppMinimumVersion": 1,
 +    "iOSBundleId": "com.inspireui.mstore.flutter",
 +    "iOSAppMinimumVersion": "1.0.1",

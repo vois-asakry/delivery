@@ -2,7 +2,7 @@ part of '../config.dart';
 
 class DefaultConfig {
   static String environment = '';
-  static String appName = 'Fluxstore';
+  static String appName = 'تمريض العياده المنزلية';
   static bool enableRemoteConfigFirebase = false;
   static bool enableCrashAnalytics = false;
   static String defaultLanguage = '';
@@ -351,7 +351,7 @@ class DefaultConfig {
     //The link your app will open
     'link': 'https://mstore.io/',
     //----------* Android Setting *----------//
-    'androidPackageName': 'com.inspireui.fluxstore',
+    'androidPackageName': 'com.al3yadadel.com',
     'androidAppMinimumVersion': 1,
     //----------* iOS Setting *----------//
     'iOSBundleId': 'com.inspireui.mstore.flutter',

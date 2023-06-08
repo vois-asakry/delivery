@@ -1,49 +1,49 @@
 // ignore_for_file: prefer_single_quotes, lines_longer_than_80_chars final
 Map<String, dynamic> environment = {
-  "appConfig": "lib/config/config_en.json",
+  "appConfig": "lib/config/config_ar.json",
 
   "serverConfig": {
     'type': 'delivery',
 
     /// 🌍 The register URL domain that matches with Envato Purchase Code
     /// 🔑 Also, make sure to update the envatoPurchaseCode from configs/env.properties
-    'url': 'https://wclovers.mstore.io',
-    'consumerKey': 'ck_cf6b2a2966f2d908cc08ebaef1336b15f9a6697c',
-    'consumerSecret': 'cs_9756800a6b17a6c76bcde454de61fd30ce389fad',
+    'url': 'https://aleiada2022.com',
+    'consumerKey': 'ck_a77513b517f2e70c93197e819820000c7f3e115f',
+    'consumerSecret': 'cs_18c8b2df6fb6103b69a96e6111f4c69996a42e8b',
     'platform': '', // 'dokan', 'woo', default empty is used for WCFM
 
     /// Wordpress blog, it could be removed if using the same above url
-    'blog': 'https://mstore.io',
+    'blog': 'https://aleiada2022.com',
 
     /// remove to use as native screen
-    'forgetPassword': 'https://mstore.io/wp-login.php?action=lostpassword'
+    'forgetPassword': 'https://aleiada2022.com/wp-login.php?action=lostpassword'
   },
 
   /// ➡️ lib/common/config/general.dart
-  "defaultDarkTheme": false,
+  "defaultDarkTheme": true,
   "enableRemoteConfigFirebase": false,
   "loginSMSConstants": {
-    "countryCodeDefault": "US",
-    "dialCodeDefault": "+1",
-    "nameDefault": "United States",
+    "countryCodeDefault": "EG",
+    "dialCodeDefault": "+2",
+    "nameDefault": "Egypt",
   },
   "phoneNumberConfig": {
-    "enablePhoneNumberValidation": false,
-    "countryCodeDefault": "US",
-    "dialCodeDefault": "+1",
+    "enablePhoneNumberValidation": true,
+    "countryCodeDefault": "EG",
+    "dialCodeDefault": "+2",
     "useInternationalFormat": true,
     "selectorFlagAsPrefixIcon": true,
     "showCountryFlag": true,
-    "customCountryList": [], // List alpha_2_code. E.g: ["VN", "AU"]
+    "customCountryList": ["EG", "KSA"], // List alpha_2_code. E.g: ["VN", "AU"]
     "selectorType": "BOTTOM_SHEET", // [DROPDOWN, BOTTOM_SHEET, DIALOG]
   },
   "storeIdentifier": {
     "disable": true,
-    "android": "com.inspireui.fluxstore",
+    "android": "com.al3yadadel.com",
     "ios": "1469772800"
   },
   "advanceConfig": {
-    "DefaultLanguage": "en",
+    "DefaultLanguage": "ar",
     "DetailedBlogLayout": "halfSizeImageType",
     "EnablePointReward": false,
     "hideOutOfStock": false,
@@ -75,11 +75,11 @@ Map<String, dynamic> environment = {
     /// For example, to charge 10 USD, provide an amount value of 1000 (i.e., 1000 cents).
     /// Reference: https://stripe.com/docs/currencies#zero-decimal
     "DefaultCurrency": {
-      "symbol": "\$",
+      "symbol": "EGP",
       "decimalDigits": 2,
       "symbolBeforeTheNumber": true,
-      "currency": "USD",
-      "currencyCode": "usd",
+      "currency": "EGP",
+      "currencyCode": "egp",
       "smallestUnitRate": 100,
 
       /// 100 cents = 1 usd
@@ -94,51 +94,6 @@ Map<String, dynamic> environment = {
         "smallestUnitRate": 100,
 
         /// 100 cents = 1 usd
-      },
-      {
-        "symbol": "₹",
-        "decimalDigits": 0,
-        "symbolBeforeTheNumber": true,
-        "currency": "INR",
-        "currencyCode": "INR",
-      },
-      {
-        "symbol": "đ",
-        "decimalDigits": 2,
-        "symbolBeforeTheNumber": false,
-        "currency": "VND",
-        "currencyCode": "VND",
-      },
-      {
-        "symbol": "€",
-        "decimalDigits": 2,
-        "symbolBeforeTheNumber": true,
-        "currency": "EUR",
-        "currencyCode": "EUR",
-      },
-      {
-        "symbol": "£",
-        "decimalDigits": 2,
-        "symbolBeforeTheNumber": true,
-        "currency": "Pound sterling",
-        "currencyCode": "GBP",
-        "smallestUnitRate": 100,
-
-        /// 100 pennies = 1 pound
-      },
-      {
-        'symbol': 'AR\$',
-        'decimalDigits': 2,
-        'symbolBeforeTheNumber': true,
-        'currency': 'ARS',
-        'currencyCode': 'ARS',
-      },
-      {
-        'symbol': 'R',
-        'decimalDigits': 2,
-        'symbolBeforeTheNumber': true,
-        'currency': 'ZAR',
-        'currencyCode': 'ZAR',
       }
     ],
 
@@ -149,7 +104,7 @@ Map<String, dynamic> environment = {
 
     /// if the woo commerce website supports multi languages
     /// set false if the website only have one language
-    "isMultiLanguages": true,
+    "isMultiLanguages": false,
 
     ///Review gets approved automatically on woocommerce admin without requiring administrator to approve.
     "EnableApprovedReview": false,
@@ -302,7 +257,6 @@ Map<String, dynamic> environment = {
     "wishlist",
     "notifications",
     "language",
-    "currencies",
     "darkTheme",
     "order",
     "point",
@@ -311,9 +265,9 @@ Map<String, dynamic> environment = {
     "about",
   ],
   "loginSetting": {
-    "IsRequiredLogin": false,
-    "showAppleLogin": true,
-    "showFacebook": true,
+    "IsRequiredLogin": true,
+    "showAppleLogin": false,
+    "showFacebook": false,
     "showSMSLogin": true,
     "showGoogleLogin": true,
     "showPhoneNumberWhenRegister": false,
@@ -444,7 +398,7 @@ Map<String, dynamic> environment = {
     //The link your app will open
     "link": "https://mstore.io/",
     //----------* Android Setting *----------//
-    "androidPackageName": "com.inspireui.fluxstore",
+    "androidPackageName": "com.al3yadadel.com",
     "androidAppMinimumVersion": 1,
     //----------* iOS Setting *----------//
     "iOSBundleId": "com.inspireui.mstore.flutter",
