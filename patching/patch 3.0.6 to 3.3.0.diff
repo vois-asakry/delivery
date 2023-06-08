@@ -604,7 +604,7 @@ index 7e8a847..c2c02ff 100644
      <application
          android:name="${applicationName}"
          android:icon="@mipmap/launcher_icon"
--        android:label="Fluxstore"
+-        android:label="تمريض العياده المنزلية"
 +        android:label="${appName}"
          android:requestLegacyExternalStorage="true"
 +        android:fullBackupContent="@xml/backup_rules"
