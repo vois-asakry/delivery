@@ -552,7 +552,7 @@ index df67291..d58a916 100644
 @@ -64,8 +65,10 @@
          android:name="${applicationName}"
          android:icon="@mipmap/launcher_icon"
-         android:label="Home Clinic Delivery"
+         android:label="Home Clinic Nursing"
 +        android:requestLegacyExternalStorage="true"
          android:usesCleartextTraffic="true">
  
@@ -1183,7 +1183,7 @@ index b35ee0e..eaaa800 100644
 +	<key>CFBundleDevelopmentRegion</key>
 +	<string>en</string>
 +	<key>CFBundleDisplayName</key>
-+	<string>Home Clinic Delivery</string>
++	<string>Home Clinic Nursing</string>
 +	<key>CFBundleExecutable</key>
 +	<string>$(EXECUTABLE_NAME)</string>
 +	<key>CFBundleIdentifier</key>
@@ -1244,7 +1244,7 @@ index b35ee0e..eaaa800 100644
 +	<key>FacebookClientToken</key>
 +	<string>9def0493cb40104fa311ee9e1086d264</string>
 +	<key>FacebookDisplayName</key>
-+	<string>Home Clinic Delivery</string>
++	<string>Home Clinic Nursing</string>
 +	<key>FirebaseAppDelegateProxyEnabled</key>
 +	<true/>
 +	<key>FirebaseScreenReportingEnabled</key>
@@ -1347,7 +1347,7 @@ index b35ee0e..eaaa800 100644
 -        <string>9def0493cb40104fa311ee9e1086d264</string>
 -		<!--TODO: Change your facebook app name -->
 -		<key>FacebookDisplayName</key>
--		<string>Home Clinic Delivery</string>
+-		<string>Home Clinic nursing</string>
 -		<key>FirebaseAppDelegateProxyEnabled</key>
 +		<key>NSAllowsArbitraryLoads</key>
  		<true/>
@@ -29357,7 +29357,7 @@ index 7f10c94..917367b 100644
 -    "production": false,
      "enableApplePay": true,
      "enableGooglePay": true,
-     "merchantDisplayName": "Home Clinic Delivery,
+     "merchantDisplayName": "Home Clinic Nursing,
 @@ -852,7 +867,8 @@ Map<String, dynamic> environment = {
    },
    "myFatoorahConfig": {
@@ -30745,7 +30745,7 @@ index 0f95a2f..5d88d57 100644
 +        "deleteAccountSuccess": MessageLookupByLibrary.simpleMessage(
 +            "تم حذف الحساب بنجاح. انتهت صلاحية جلسة العمل الخاصة بك."),
          "deleteAll": MessageLookupByLibrary.simpleMessage("حذف الكل"),
-         "delivered": MessageLookupByLibrary.simpleMessage("تم التوصيل"),
+         "delivered": MessageLookupByLibrary.simpleMessage(" اكتمل"),
 -        "deliveredTo": MessageLookupByLibrary.simpleMessage("سلمت ل"),
 -        "deliveryBoy": MessageLookupByLibrary.simpleMessage("فتى التوصيل:"),
 -        "deliveryDate":
@@ -51151,7 +51151,7 @@ index fe095d5..00c0523 100644
 +	"call": "إجراءإتصال",
  	"chat": "دردشة",
  	"customerDetail": "تفاصيل العميل",
- 	"delivered": "تم التوصيل",
+ 	"delivered": " اكتمل",
  	"deliveryDetails": "تفاصيل التسليم",
  	"fullName": "الاسم الكامل",
 -	"incorrectPassword": "كلمة سر خاطئة",
@@ -61073,7 +61073,7 @@ index 465fc34..d689c2d 100644
                        )
                      : const Icon(Icons.face),
                  title: Text(
--                  user.name!.replaceAll('Home Clinic Delivery', ''),
+-                  user.name!.replaceAll('Home Clinic Nursing', ''),
 +                  user.name ?? '',
                    style: textStyle,
                  ),

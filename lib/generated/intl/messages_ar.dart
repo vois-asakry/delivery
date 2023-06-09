@@ -364,7 +364,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "deleteAccountSuccess": MessageLookupByLibrary.simpleMessage(
             "تم حذف الحساب بنجاح. انتهت صلاحية جلسة العمل الخاصة بك."),
         "deleteAll": MessageLookupByLibrary.simpleMessage("حذف الكل"),
-        "delivered": MessageLookupByLibrary.simpleMessage("تم التوصيل"),
+        "delivered": MessageLookupByLibrary.simpleMessage("اكتمل"),
         "deliveredTo": MessageLookupByLibrary.simpleMessage("تم تسليمها إلى"),
         "deliveryBoy": MessageLookupByLibrary.simpleMessage("عامل التوصيل:"),
         "deliveryDate": MessageLookupByLibrary.simpleMessage("تاريخ التوصيل"),

@@ -7682,8 +7682,8 @@ index 2cd3066..c473c8f 100644
 +++ b/lib/frameworks/delivery/config/app_config.dart
 @@ -1,6 +1,35 @@
 -const kAppLogo = 'assets/images/app_icon_transparent.png';
--const kAppName = 'Home Clinic Delivery;
--const kDashboardName1 = 'Delivery';
+-const kAppName = 'Home Clinic Nursing;
+-const kDashboardName1 = 'Nursing';
 -const kDashboardName2 = 'Home Clinic';
 +import '../../../common/config.dart';
  
@@ -7705,7 +7705,7 @@ index 2cd3066..c473c8f 100644
 +
 +  DeliveryConfig.fromJson(dynamic json) {
 +    appLogo = json['appLogo'] ?? 'assets/images/app_icon_transparent.png';
-+    appName = json['appName'] ?? 'Home Clinic Delivery';
++    appName = json['appName'] ?? 'Home Clinic Nursing';
 +    dashboardName1 = json['dashboardName1'] ?? 'العياده المنزلية';
 +    dashboardName2 = json['dashboardName2'] ?? 'تمريض';
 +    enableSystemNotes = json['enableSystemNotes'] ?? false;
