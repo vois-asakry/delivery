@@ -10,7 +10,7 @@ Map<String, dynamic> environment = {
     'url': 'https://aleiada2022.com',
     'consumerKey': 'ck_a77513b517f2e70c93197e819820000c7f3e115f',
     'consumerSecret': 'cs_18c8b2df6fb6103b69a96e6111f4c69996a42e8b',
-    'platform': '', // 'dokan', 'woo', default empty is used for WCFM
+    'platform': 'woo', // 'dokan', 'woo', default empty is used for WCFM
 
     /// Wordpress blog, it could be removed if using the same above url
     'blog': 'https://aleiada2022.com',
@@ -408,7 +408,14 @@ Map<String, dynamic> environment = {
 
   /// ➡️ lib/common/languages.dart
   "languagesInfo": [
-    // 1 English - en.arb
+  // 6 Arabic ar.arb
+    {
+      "name": "Arabic",
+      "icon": "assets/images/country/ar.png",
+      "code": "ar",
+      "text": "العربية",
+      "storeViewCode": "ar"
+    },
     {
       "name": "English",
       "icon": "assets/images/country/gb.png",
@@ -417,14 +424,7 @@ Map<String, dynamic> environment = {
       "storeViewCode": ""
     },
   
-    // 6 Arabic ar.arb
-    {
-      "name": "Arabic",
-      "icon": "assets/images/country/ar.png",
-      "code": "ar",
-      "text": "العربية",
-      "storeViewCode": "ar"
-    },
+  
 
   ],
 
@@ -806,7 +806,7 @@ Map<String, dynamic> environment = {
 
   /// Enable Delivery Boy Management in FluxStore Manager(WCFM)
   "deliveryConfig": {
-    "DisableDeliveryManagement": false,
+    "DisableDeliveryManagement": true,
   },
 
   /// Enable Vendor Admin in FluxStore manager
