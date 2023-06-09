@@ -1757,7 +1757,7 @@ index 0000000..08b62a1
 +++ b/configs/env.properties
 @@ -0,0 +1,24 @@
 +envatoPurchaseCode=put-your-envato-purchase-code-here
-+appName=FluxStore
++appName=Home Clinic Delivery
 +iosBundleId=com.inspireui.mstore.flutter
 +iosBundleIdOneSignal=com.inspireui.mstore.flutter.onesignal
 +iosAppGroups=group.com.inspireui.mstore.flutter.onesignal
@@ -1765,7 +1765,7 @@ index 0000000..08b62a1
 +androidPackageName=com.al3yadadel.com
 +websiteUrl=https://inspireui.com
 +websiteDomain=inspireui.com
-+customScheme=fluxstore
++customScheme=Home Clinic Delivery
 +iosApsEnvironment=development
 +firebaseDynamicUrl=fluxstoreinspireui.page.link
 +googleReversedClientId=com.googleusercontent.apps.412823237422-pf5dr3f75n6r201u24ocioin54u3cseq
@@ -2351,7 +2351,7 @@ index 0000000..d51f877
 +envatoPurchaseCode=put-your-envato-purchase-code-here
 +
 +# Your app information.
-+appName=FluxStore
++appName=Home Clinic Delivery
 +iosBundleId=com.inspireui.mstore.flutter
 +iosBundleIdOneSignal=com.inspireui.mstore.flutter.onesignal
 +iosAppGroups=group.com.inspireui.mstore.flutter.onesignal
@@ -3971,7 +3971,7 @@ index 9c15f16..8b948e6 100644
  	<key>CFBundleDevelopmentRegion</key>
  	<string>en</string>
  	<key>CFBundleDisplayName</key>
--	<string>FluxStore</string>
+-	<string>Home Clinic Delivery</string>
 +	<string>${appName}</string>
  	<key>CFBundleExecutable</key>
  	<string>$(EXECUTABLE_NAME)</string>
@@ -4019,7 +4019,7 @@ index 9c15f16..8b948e6 100644
 -	<string>9def0493cb40104fa311ee9e1086d264</string>
 +	<string>${facebookClientToken}</string>
  	<key>FacebookDisplayName</key>
--	<string>FluxStore</string>
+-	<string>Home Clinic Delivery</string>
 +	<string>${appName}</string>
  	<key>FirebaseAppDelegateProxyEnabled</key>
  	<true/>

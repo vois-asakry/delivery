@@ -17,9 +17,9 @@ class DeliveryConfig {
 
   DeliveryConfig.fromJson(dynamic json) {
     appLogo = json['appLogo'] ?? 'assets/images/app_icon_transparent.png';
-    appName = json['appName'] ?? 'FluxStore Delivery';
-    dashboardName1 = json['dashboardName1'] ?? 'FluxStore';
-    dashboardName2 = json['dashboardName2'] ?? 'Delivery';
+    appName = json['appName'] ?? 'Home Clinic Delivery';
+    dashboardName1 = json['dashboardName1'] ?? '';
+    dashboardName2 = json['dashboardName2'] ?? 'Home Clinic Delivery';
     enableSystemNotes = json['enableSystemNotes'] ?? false;
   }
 

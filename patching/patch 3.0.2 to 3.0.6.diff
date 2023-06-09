@@ -7682,9 +7682,9 @@ index 2cd3066..c473c8f 100644
 +++ b/lib/frameworks/delivery/config/app_config.dart
 @@ -1,6 +1,35 @@
 -const kAppLogo = 'assets/images/app_icon_transparent.png';
--const kAppName = 'تمريض العيادة المنزلية';
--const kDashboardName1 = 'تمريض';
--const kDashboardName2 = 'العياده المنزلية';
+-const kAppName = 'Home Clinic Delivery;
+-const kDashboardName1 = 'Delivery';
+-const kDashboardName2 = 'Home Clinic';
 +import '../../../common/config.dart';
  
 -const kEnableSystemNotes = false;
@@ -7705,7 +7705,7 @@ index 2cd3066..c473c8f 100644
 +
 +  DeliveryConfig.fromJson(dynamic json) {
 +    appLogo = json['appLogo'] ?? 'assets/images/app_icon_transparent.png';
-+    appName = json['appName'] ?? 'العيادة المنزلية';
++    appName = json['appName'] ?? 'Home Clinic Delivery';
 +    dashboardName1 = json['dashboardName1'] ?? 'العياده المنزلية';
 +    dashboardName2 = json['dashboardName2'] ?? 'تمريض';
 +    enableSystemNotes = json['enableSystemNotes'] ?? false;
@@ -10990,7 +10990,7 @@ index 0000000..1f362d4
 +    {
 +      "title": "Welcome to FluxStore",
 +      "image": "assets/images/fogg-delivery-1.png",
-+      "desc": "Fluxstore is on the way to serve you. "
++      "desc": "Home Clinic Delivery is on the way to serve you. "
 +    },
 +    {
 +      "title": "Connect Surrounding World",

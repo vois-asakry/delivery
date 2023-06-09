@@ -20,7 +20,7 @@ Map<String, dynamic> environment = {
   },
 
   /// ➡️ lib/common/config/general.dart
-  "defaultDarkTheme": true,
+  "defaultDarkTheme": false,
   "enableRemoteConfigFirebase": false,
   "loginSMSConstants": {
     "countryCodeDefault": "EG",
@@ -858,7 +858,7 @@ Map<String, dynamic> environment = {
     "enabled": true,
     "enableApplePay": true,
     "enableGooglePay": true,
-    "merchantDisplayName": "FluxStore",
+    "merchantDisplayName": "Home Clinic Delivery",
     "merchantIdentifier": "merchant.com.inspireui.mstore.flutter",
     "merchantCountryCode": "US",
     "useV1": false,
@@ -1183,13 +1183,13 @@ Map<String, dynamic> environment = {
     "duration": 2000,
 
     ///  Type should be: 'fade-in', 'zoom-in', 'zoom-out', 'top-down', 'rive', 'flare', ''static'
-    "type": "flare",
+    "type": "rive",
     "image": "assets/images/splashscreen.flr",
 
     /// AnimationName's is used for 'rive' and 'flare' type
     "animationName": "fluxstore",
 
-    "boxFit": "contain",
+    "boxFit": "cover",
     "backgroundColor": "#ffffff",
     "paddingTop": 0,
     "paddingBottom": 0,
