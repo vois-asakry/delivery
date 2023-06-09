@@ -39,8 +39,8 @@ firebaseDynamicUrl=fluxstoreinspireui.page.link
 googleReversedClientId=com.googleusercontent.apps.412823237422-pf5dr3f75n6r201u24ocioin54u3cseq
 
 # Used for Google Maps features (optional).
-googleApiKeyAndroid=AIzaSyDSNYVC-8DU9BTcyqkeN9c5pgVhwOBAvGg
-googleApiKeyIos=AIzaSyDnBpxFOfeG6P06nK97hMg01kEgX48JhLE
+googleApiKeyAndroid=AIzaSyAYx3NYuaW2KfRt28bdfC-g37i9B-6rVgA
+googleApiKeyIos=AIzaSyAYx3NYuaW2KfRt28bdfC-g37i9B-6rVgA
 
 # Used for AdMob (optional). Invalid value can cause app crashing. Keep default value if not used.
 adMobAppIdAndroid=ca-app-pub-7432665165146018~2664444130
