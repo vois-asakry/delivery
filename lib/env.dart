@@ -7,9 +7,9 @@ Map<String, dynamic> environment = {
 
     /// 🌍 The register URL domain that matches with Envato Purchase Code
     /// 🔑 Also, make sure to update the envatoPurchaseCode from configs/env.properties
-    'url': 'https://aleiada2022.com',
-    'consumerKey': 'ck_a77513b517f2e70c93197e819820000c7f3e115f',
-    'consumerSecret': 'cs_18c8b2df6fb6103b69a96e6111f4c69996a42e8b',
+    'url': 'https://amon.marketing/',
+    'consumerKey': 'ck_c11de3937fbb26db42a4ad176599769b7f55bc50',
+    'consumerSecret': 'cs_cbbd6cb3ac24374b7b5a0b89d8f7a472afc92efc',
     'platform': 'woo', // 'dokan', 'woo', default empty is used for WCFM
 
     /// Wordpress blog, it could be removed if using the same above url
@@ -822,7 +822,7 @@ Map<String, dynamic> environment = {
     "enable": true,
 
     /// duration in milliseconds, used for all types except "rive" and "flare"
-    "duration": 2000,
+    "duration": 3000,
 
     ///  Type should be: 'fade-in', 'zoom-in', 'zoom-out', 'top-down', 'rive', 'flare', ''static'
     "type": "rive",
