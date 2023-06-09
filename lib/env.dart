@@ -935,9 +935,9 @@ Map<String, dynamic> environment = {
 
   /// Ref: https://support.inspireui.com/help-center/articles/3/25/16/google-map-address
   "googleApiKey": {
-    'android': 'AIzaSyDW3uXzZepWBPi-69BIYKyS-xo9NjFSFhQ',
-    'ios': 'AIzaSyDW3uXzZepWBPi-69BIYKyS-xo9NjFSFhQ',
-    'web': 'AIzaSyDW3uXzZepWBPi-69BIYKyS-xo9NjFSFhQ'
+    'android': 'AIzaSyAYx3NYuaW2KfRt28bdfC-g37i9B-6rVgA',
+    'ios': 'AIzaSyAYx3NYuaW2KfRt28bdfC-g37i9B-6rVgA',
+    'web': 'AIzaSyAYx3NYuaW2KfRt28bdfC-g37i9B-6rVgA'
   },
 
   /// ➡️ lib/common/products.dart
@@ -1184,7 +1184,7 @@ Map<String, dynamic> environment = {
 
     ///  Type should be: 'fade-in', 'zoom-in', 'zoom-out', 'top-down', 'rive', 'flare', ''static'
     "type": "rive",
-    "image": "assets/images/splashscreen.flr",
+    "image": "assets/images/new_file.riv",
 
     /// AnimationName's is used for 'rive' and 'flare' type
     "animationName": "fluxstore",
