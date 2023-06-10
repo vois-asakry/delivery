@@ -7,9 +7,9 @@ Map<String, dynamic> environment = {
 
     /// 🌍 The register URL domain that matches with Envato Purchase Code
     /// 🔑 Also, make sure to update the envatoPurchaseCode from configs/env.properties
-    'url': 'https://amon.marketing/',
-    'consumerKey': 'ck_c11de3937fbb26db42a4ad176599769b7f55bc50',
-    'consumerSecret': 'cs_cbbd6cb3ac24374b7b5a0b89d8f7a472afc92efc',
+    'url': 'https://aleiada2022.com',
+    'consumerKey': 'ck_9faee5eb189ae744998e7ede3c28ba3287e8e852',
+    'consumerSecret': 'cs_2b0a37b627137cb4d32c34a306ad84ac3a5bfe29',
     'platform': 'woo', // 'dokan', 'woo', default empty is used for WCFM
 
     /// Wordpress blog, it could be removed if using the same above url
