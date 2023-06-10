@@ -31104,8 +31104,8 @@ index 0f95a2f..5d88d57 100644
 -        "markAsRead": MessageLookupByLibrary.simpleMessage("ضع إشارة مقروء"),
 +        "markAsRead": MessageLookupByLibrary.simpleMessage("وضع علامة مقروءة"),
          "markAsShipped":
--            MessageLookupByLibrary.simpleMessage("اضف علامة - تم الشحن"),
-+            MessageLookupByLibrary.simpleMessage("وضع علامة قد تم الشحن"),
+-            MessageLookupByLibrary.simpleMessage("اضف علامة -  اكتمل"),
++            MessageLookupByLibrary.simpleMessage("وضع علامة قد  اكتمل"),
          "markAsUnread":
              MessageLookupByLibrary.simpleMessage("وضع علامة كغير مقروءة"),
 -        "maximumFileSizeMb": m11,
@@ -51145,7 +51145,7 @@ index fe095d5..00c0523 100644
 -	"call": "مكالمة",
 +	"orderStatusProcessed": "تمت المعالجة",
 +	"orderStatusReversed": "تم الإلغاء",
-+	"orderStatusShipped": "تم الشحن",
++	"orderStatusShipped": " اكتمل",
 +	"orderStatusVoided": "الطلبية باطلة/ملغاة",
 +	"assigned": "تم تعيين الطلبية",
 +	"call": "إجراءإتصال",
@@ -51159,7 +51159,7 @@ index fe095d5..00c0523 100644
 -	"productCreateReview": "سيظهر منتجك بعد المراجعة.",
 -	"shipped": "شحنها",
 +	"incorrectPassword": "عذراً، كلمة المرور غير صحيحة",
-+	"markAsShipped": "وضع علامة قد تم الشحن",
++	"markAsShipped": "وضع علامة قد اكتمل",
 +	"productCreateReview": "سيظهر منتجك على التطبيق بعد مراجعته، شكراً لك",
 +	"shipped": "تم شحن الطلبية",
  	"storeInformation": "معلومات المتجر",

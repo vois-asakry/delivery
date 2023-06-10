@@ -627,7 +627,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "marathi": MessageLookupByLibrary.simpleMessage("المهاراتية"),
         "markAsRead": MessageLookupByLibrary.simpleMessage("وضع علامة مقروءة"),
         "markAsShipped":
-            MessageLookupByLibrary.simpleMessage("وضع علامة قد تم الشحن"),
+            MessageLookupByLibrary.simpleMessage("وضع علامة قد اكتمل"),
         "markAsUnread":
             MessageLookupByLibrary.simpleMessage("وضع علامة كغير مقروءة"),
         "maximumFileSizeMb": m13,
@@ -761,7 +761,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("الطلبية مرتجعة"),
         "orderStatusReversed":
             MessageLookupByLibrary.simpleMessage("تم الإلغاء"),
-        "orderStatusShipped": MessageLookupByLibrary.simpleMessage("تم الشحن"),
+        "orderStatusShipped": MessageLookupByLibrary.simpleMessage(" اكتمل"),
         "orderStatusVoided":
             MessageLookupByLibrary.simpleMessage("الطلبية باطلة/ملغاة"),
         "orderSuccessMsg1": MessageLookupByLibrary.simpleMessage(
