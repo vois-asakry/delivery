@@ -290,20 +290,14 @@ Map<String, dynamic> environment = {
   /// ➡️ lib/common/onboarding.dart
   "onBoardingData": [
     {
-      'title': 'Welcome to FluxStore',
-      'image': 'assets/images/fogg-delivery-1.png',
-      'desc': 'Fluxstore is on the way to serve you. '
+
+      'image': 'assets/images/fogg-uploading-3.png',
+
     },
     {
-      'title': 'Connect Surrounding World',
-      'image': 'assets/images/fogg-uploading-1.png',
-      'desc':
-          'See all things happening around you just by a click in your phone. Fast, convenient and clean.'
-    },
-    {
-      'title': "Let's Get Started",
-      'image': 'assets/images/fogg-order-completed.png',
-      'desc': "Waiting no more, let's see what we get!"
+
+      'image': 'assets/images/fogg-uploading-2.png',
+
     }
   ],
 
@@ -822,11 +816,11 @@ Map<String, dynamic> environment = {
     "enable": true,
 
     /// duration in milliseconds, used for all types except "rive" and "flare"
-    "duration": 3000,
+    "duration": 2000,
 
     ///  Type should be: 'fade-in', 'zoom-in', 'zoom-out', 'top-down', 'rive', 'flare', ''static'
     "type": "rive",
-    "image": "assets/images/new_file.riv",
+    "image": "assets/images/splashscreen.riv",
 
     /// AnimationName's is used for 'rive' and 'flare' type
     "animationName": "fluxstore",

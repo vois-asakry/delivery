@@ -624,7 +624,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "marathi": MessageLookupByLibrary.simpleMessage("Marathi"),
         "markAsRead": MessageLookupByLibrary.simpleMessage("Mark as read"),
         "markAsShipped":
-            MessageLookupByLibrary.simpleMessage("Mark as shipped"),
+            MessageLookupByLibrary.simpleMessage("Mark as Completed"),
         "markAsUnread": MessageLookupByLibrary.simpleMessage("Mark as unread"),
         "maximumFileSizeMb": m13,
         "maybeLater": MessageLookupByLibrary.simpleMessage("Maybe Later"),
@@ -745,7 +745,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Processing"),
         "orderStatusRefunded": MessageLookupByLibrary.simpleMessage("Refunded"),
         "orderStatusReversed": MessageLookupByLibrary.simpleMessage("Reversed"),
-        "orderStatusShipped": MessageLookupByLibrary.simpleMessage("Shipped"),
+        "orderStatusShipped": MessageLookupByLibrary.simpleMessage("Completed"),
         "orderStatusVoided": MessageLookupByLibrary.simpleMessage("Voided"),
         "orderSuccessMsg1": MessageLookupByLibrary.simpleMessage(
             "You can check status of your order by using our delivery status feature. You will receive an order confirmation e-mail with details of your order and a link to track its progress."),

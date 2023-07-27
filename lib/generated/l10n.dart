@@ -5180,10 +5180,10 @@ class S {
     );
   }
 
-  /// `Shipped`
+  /// `Completed`
   String get orderStatusShipped {
     return Intl.message(
-      'Shipped',
+      'Completed',
       name: 'orderStatusShipped',
       desc: '',
       args: [],
@@ -5360,10 +5360,10 @@ class S {
     );
   }
 
-  /// `Mark as shipped`
+  /// `Mark as Completed`
   String get markAsShipped {
     return Intl.message(
-      'Mark as shipped',
+      'Mark as Completed',
       name: 'markAsShipped',
       desc: '',
       args: [],

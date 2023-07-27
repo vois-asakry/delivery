@@ -739,7 +739,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "orderStatusCancelled":
             MessageLookupByLibrary.simpleMessage(" تم إلغاء الطلب"),
         "orderStatusChargeBack":
-            MessageLookupByLibrary.simpleMessage("إعادة الشحن"),
+            MessageLookupByLibrary.simpleMessage("إعادة العمل"),
         "orderStatusCompleted":
             MessageLookupByLibrary.simpleMessage("الطلب مكتمل"),
         "orderStatusDenied": MessageLookupByLibrary.simpleMessage("مرفوضة"),
@@ -761,7 +761,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("الطلبية مرتجعة"),
         "orderStatusReversed":
             MessageLookupByLibrary.simpleMessage("تم الإلغاء"),
-        "orderStatusShipped": MessageLookupByLibrary.simpleMessage(" اكتمل"),
+        "orderStatusShipped": MessageLookupByLibrary.simpleMessage("اكتمل "),
         "orderStatusVoided":
             MessageLookupByLibrary.simpleMessage("الطلبية باطلة/ملغاة"),
         "orderSuccessMsg1": MessageLookupByLibrary.simpleMessage(
@@ -1036,7 +1036,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "share": MessageLookupByLibrary.simpleMessage("مشاركة"),
         "shipped": MessageLookupByLibrary.simpleMessage("تم شحن الطلبية"),
         "shipping": MessageLookupByLibrary.simpleMessage("الشحن"),
-        "shippingAddress": MessageLookupByLibrary.simpleMessage("عنوان الشحن"),
+        "shippingAddress": MessageLookupByLibrary.simpleMessage("عنوان الوصول"),
         "shippingMethod": MessageLookupByLibrary.simpleMessage("طريقة الشحن"),
         "shop": MessageLookupByLibrary.simpleMessage("المتجر"),
         "shopEmail": MessageLookupByLibrary.simpleMessage(

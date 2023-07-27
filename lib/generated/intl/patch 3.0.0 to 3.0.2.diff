@@ -51145,7 +51145,7 @@ index fe095d5..00c0523 100644
 -	"call": "مكالمة",
 +	"orderStatusProcessed": "تمت المعالجة",
 +	"orderStatusReversed": "تم الإلغاء",
-+	"orderStatusShipped": " اكتمل",
++	"orderStatusShipped": "تم اكتمل",
 +	"orderStatusVoided": "الطلبية باطلة/ملغاة",
 +	"assigned": "تم تعيين الطلبية",
 +	"call": "إجراءإتصال",
