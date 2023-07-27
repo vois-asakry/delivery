@@ -627,7 +627,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "marathi": MessageLookupByLibrary.simpleMessage("المهاراتية"),
         "markAsRead": MessageLookupByLibrary.simpleMessage("وضع علامة مقروءة"),
         "markAsShipped":
-            MessageLookupByLibrary.simpleMessage("وضع علامة قد اكتمل"),
+            MessageLookupByLibrary.simpleMessage("وضع علامة قد تم الشحن"),
         "markAsUnread":
             MessageLookupByLibrary.simpleMessage("وضع علامة كغير مقروءة"),
         "maximumFileSizeMb": m13,
@@ -761,7 +761,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("الطلبية مرتجعة"),
         "orderStatusReversed":
             MessageLookupByLibrary.simpleMessage("تم الإلغاء"),
+<<<<<<< HEAD
         "orderStatusShipped": MessageLookupByLibrary.simpleMessage("اكتمل "),
+=======
+        "orderStatusShipped": MessageLookupByLibrary.simpleMessage("تم الشحن"),
+>>>>>>> parent of dee52fa (test004)
         "orderStatusVoided":
             MessageLookupByLibrary.simpleMessage("الطلبية باطلة/ملغاة"),
         "orderSuccessMsg1": MessageLookupByLibrary.simpleMessage(

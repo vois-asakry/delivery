@@ -12010,7 +12010,7 @@ index 5d88d57..c05924a 100644
              MessageLookupByLibrary.simpleMessage("فشل تسجيل الدخول!"),
          "loginInvalid": MessageLookupByLibrary.simpleMessage(
 @@ -593,18 +619,19 @@ class MessageLookup extends MessageLookupByLibrary {
-             MessageLookupByLibrary.simpleMessage("وضع علامة قد اكتمل"),
+             MessageLookupByLibrary.simpleMessage("وضع علامة قد تم الشحن"),
          "markAsUnread":
              MessageLookupByLibrary.simpleMessage("وضع علامة كغير مقروءة"),
 -        "maximumFileSizeMb": m12,
